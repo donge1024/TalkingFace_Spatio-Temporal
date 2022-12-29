@@ -11,7 +11,6 @@ Time consistency (TC) takes the continuous frame sequence of the same phoneme as
 Spatial consistency (SC) constructing an adaptive face encoder-decoder network by aligning the spatial positions of detected faces can effectively eliminate visual artifacts in video frames.
 
 # Evaluation
-Regarding the consistency of judging lip sync, we use LSE-D (Lip Sync Error - Distance) and LSE-C (Lip Sync Error
-- Confidence) to indicate the correlation of audio and video. The lower the LSE-D, the better, and the higher the LSE-C, the better.
+Regarding the consistency of judging lip sync, we use LSE-D (Lip Sync Error - Distance) and LSE-C (Lip Sync Error - Confidence) to indicate the correlation of audio and video. The lower the LSE-D, the better, and the higher the LSE-C, the better.
 
 Regarding the evaluation of the generated quality of video frames, we use methods including FID (Fréchet Inception Distance) and SSIM (Structural SIMilarity), which represent the similarity of generated images to real images. The smaller the FID value, the better, and the larger the SSIM, the better.
