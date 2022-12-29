@@ -1,5 +1,5 @@
 # Talking Face
-Talking Face Generation; Time–Spatial Consistency
+This paper proposes a novel Talking Face model, which is based on time-spatial consistency, can adapt to multi-pose and multi-angle input faces, and generate high-quality lip-synced talking face videos. Specifically, for time consistency, a continuous frame sequence of the same phoneme is used as a time-continuous module to constrain the mouth shape changes of the same phoneme to improve the accuracy of audio to lips. For spatial consistency, an adaptive face encoder-decoder network is constructed by aligning the spatial positions of detected faces to remove visual artifacts from video frames.
 ![overview](https://user-images.githubusercontent.com/114487375/209749662-98aaffc1-09ed-4e0f-aa91-cdf87006c3f6.jpg)
 
 # Video Samples
