@@ -10,6 +10,11 @@ Time consistency (TC) takes the continuous frame sequence of the same phoneme as
 
 Spatial consistency (SC) constructing an adaptive face encoder-decoder network by aligning the spatial positions of detected faces can effectively eliminate visual artifacts in video frames.
 
+Time consistency (TC) takes the continuous frame sequence of the same phoneme as a time-continuous module to constrain the lip-shape changes of the same phoneme. It improves the accuracy of audio-driven lips.
+Spatial consistency (SC) constructing an adaptive face encoder-decoder network by aligning the spatial positions of detected faces can effectively eliminate visual artifacts in video frames.
+![image](https://user-images.githubusercontent.com/114487375/209893916-4df086e7-fbc7-4b23-a9a1-07cc9e9ddf24.png)
+
+
 # Evaluation
 Regarding the consistency of judging lip sync, we use LSE-D (Lip Sync Error - Distance) and LSE-C (Lip Sync Error - Confidence) to indicate the correlation of audio and video. The lower the LSE-D, the better, and the higher the LSE-C, the better.
 
