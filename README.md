@@ -3,4 +3,4 @@
 ## **Installation**
 conda env create -f environment.yml
 ## **Test**
-python inference.py --checkpoint_path --face --audio
+```python inference.py --checkpoint_path --face --audio```
