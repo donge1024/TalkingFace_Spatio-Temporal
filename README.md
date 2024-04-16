@@ -10,9 +10,9 @@ We train and test based on Python3.8. To install the dependencies run:
 ## **Test**
 - Prepare testing data：
 
-  prepare driving_audio
+  prepare driving_audio -- Place your own audio in ./input/
 
-  prepare driving_video 
+  prepare driving_video -- Place your own video in ./input/
 
 ```python inference.py --checkpoint_path --face --audio```
 
