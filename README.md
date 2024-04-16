@@ -16,7 +16,7 @@ The spatial consistency pertains to the uniform distribution of textures within 
 ## **Test**
 - Prepare testing data：
 
-  prepare driving_audio -- Place your own audio in ./input/
+  TemporalConsistency -- temporal_consistency = TemporalConsistency(audio, video_generated, video_input, video_ground_truth)
 
   prepare driving_video -- Place your own video in ./input/
 
