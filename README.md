@@ -14,19 +14,25 @@ The spatial consistency pertains to the uniform distribution of textures within 
 
 
 ## **Test**
-- TemporalConsistency：
+- Temporal module processing:：
 
-  Initialize TemporalConsistency, input audio and video data
-  ```phoneme_sequences = temporal_consistency.forced_alignment()```
+  **Forced Alignment**:First, simulate the process of forced alignment from the input audio data to obtain the phoneme sequence extracted from the speech.
 
-  Force alignment and obtain phoneme sequence
-  ```phoneme_sequences = temporal_consistency.forced_alignment()```
-  TemporalConsistency -- temporal_consistency = TemporalConsistency(audio, video_generated, video_input, video_ground_truth)
+  **Construct Temporal Module**:Construct the corresponding temporal module based on the obtained phoneme sequence.
 
-  prepare driving_video -- Place your own video in ./input/
+  **Calculate Lip Loss**:For each time module, calculate lip loss.
 
+  **Update Lip Weight**:Update the lip weight based on the lip movement similarity in the time module.
 
-- SpatialConsistency：
+- Spatial module processing：
+
+  **Texture Block Calculations**:First, perform texture block calculations on the image and divide the image into multiple blocks for subsequent processing.
+
+  **Calculate Distance**:Calculate the distance between each pixel and the cluster center of its surrounding area.
+
+  **Calculate Spatial Module**:Determine the spatial module in the image based on the distance calculation results.
+
+  **Face Optimization**:Use the information of the spatial module to optimize the generated face image.
 
   **Note**:The audio used in our work should be sampled at 16,000 Hz and the corresponding video should have a frame rate of 25 fps.
 
