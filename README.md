@@ -9,10 +9,8 @@ The spatial consistency pertains to the uniform distribution of textures within 
 
 ## **Installation**
 -  We train and test based on Python 3.8
--  ffmpeg: sudo apt-get install ffmpeg
--  To install the dependencies run:
-
-```conda env create -f environment.yml```
+-  ffmpeg: ```sudo apt-get install ffmpeg```
+-  To install the dependencies run: ```conda env create -f environment.yml```
 
 
 ## **Test**
