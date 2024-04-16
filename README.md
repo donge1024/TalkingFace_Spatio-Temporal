@@ -14,11 +14,19 @@ The spatial consistency pertains to the uniform distribution of textures within 
 
 
 ## **Test**
-- Prepare testing data：
+- TemporalConsistency：
 
+  Initialize TemporalConsistency, input audio and video data
+  ```phoneme_sequences = temporal_consistency.forced_alignment()```
+
+  Force alignment and obtain phoneme sequence
+  ```phoneme_sequences = temporal_consistency.forced_alignment()```
   TemporalConsistency -- temporal_consistency = TemporalConsistency(audio, video_generated, video_input, video_ground_truth)
 
   prepare driving_video -- Place your own video in ./input/
+
+
+- SpatialConsistency：
 
   **Note**:The audio used in our work should be sampled at 16,000 Hz and the corresponding video should have a frame rate of 25 fps.
 
