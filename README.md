@@ -14,5 +14,7 @@ We train and test based on Python3.8. To install the dependencies run:
 
   prepare driving_video -- Place your own video in ./input/
 
-```python inference.py --checkpoint_path --face --audio```
+  - Prepare testing data：
+
+  python inference.py --checkpoint_path checkpoints/ --face input/.video --audio input/.wav```
 
