@@ -20,9 +20,9 @@ The spatial consistency pertains to the uniform distribution of textures within 
 
   **Construct Temporal Module**:Construct the corresponding temporal module based on the obtained phoneme sequence.
 
-  **Calculate Lip Loss**:For each time module, calculate lip loss.
+  **Calculate Lip Loss**:For each temporal module, calculate lip loss.
 
-  **Update Lip Weight**:Update the lip weight based on the lip movement similarity in the time module.
+  **Update Lip Weight**:Update the lip weight based on the lip movement similarity in the temporal module.
 
 - Spatial module processing：
 
