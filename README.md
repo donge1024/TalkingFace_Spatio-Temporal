@@ -8,7 +8,7 @@ We train and test based on Python3.8. To install the dependencies run:
 ```conda env create -f environment.yml```
 
 ## **Test**
-Prepare testing data：
+- Prepare testing data：
 
 prepare driving_audio
 
