@@ -18,5 +18,5 @@ We train and test based on Python3.8. To install the dependencies run:
 
 - Prepare testing data：
 
-  python inference.py --checkpoint_path checkpoints/ --face input/.video --audio input/.wav
+  ```python inference.py --checkpoint_path checkpoints/ --face input/.video --audio input/.wav```
 
