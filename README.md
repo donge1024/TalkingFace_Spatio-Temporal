@@ -22,7 +22,7 @@ The spatial consistency pertains to the uniform distribution of textures within 
 
   **Note**:The audio used in our work should be sampled at 16,000 Hz and the corresponding video should have a frame rate of 25 fps.
 
-- Prepare testing data：
+- Run the demo：
 
   ```python inference.py --checkpoint_path checkpoints/ --face input/.video --audio input/.wav```
 
