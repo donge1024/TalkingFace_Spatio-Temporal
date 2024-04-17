@@ -14,7 +14,9 @@ The spatial consistency pertains to the uniform distribution of textures within 
 
 
 ## **Test**
-- Temporal module processing:：
+- Temporal module processing：
+
+  ```python temporal_processing.py```
 
   **Forced Alignment**:First, simulate the process of forced alignment from the input audio data to obtain the phoneme sequence extracted from the speech.
 
@@ -25,6 +27,8 @@ The spatial consistency pertains to the uniform distribution of textures within 
   **Update Lip Weight**:Update the lip weight based on the lip movement similarity in the temporal module.
 
 - Spatial module processing：
+
+  ```python spatial_processing.py```
 
   **Texture Block Calculations**:First, perform texture block calculations on the image and divide the image into multiple blocks for subsequent processing.
 
