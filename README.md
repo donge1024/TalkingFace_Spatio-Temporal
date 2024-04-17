@@ -47,5 +47,4 @@ The spatial consistency pertains to the uniform distribution of textures within 
   The result is saved in results/result.mp4.
 
 ## **Contact**
-
-    Our code is for research purposes only. More details will be released shortly. If you have any questions, please contact us: biaodong@bit.edu.cn
+Our code is for research purposes only. More details will be released shortly. If you have any questions, please contact us: biaodong@bit.edu.cn
